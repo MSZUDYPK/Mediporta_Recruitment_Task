@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{278B8248-E535-4495-897C-4848C9B64BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediporta.Api", "src\Mediporta.Api\Mediporta.Api.csproj", "{567C4B1B-BF9E-44FE-BBB3-4C1B834D25C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediporta.Infrastructure", "src\Mediporta.Infrastructure\Mediporta.Infrastructure.csproj", "{E35B2190-691A-4611-A32F-CA7AB4537848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediporta.Application", "src\Mediporta.Application\Mediporta.Application.csproj", "{DB810458-C5E1-4F91-B2EF-A87E3B228758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediporta.Core", "src\Mediporta.Core\Mediporta.Core.csproj", "{AE40C66E-79CA-403D-86D4-4A4624125D03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5C65AADA-1830-459B-8736-83347E8EC62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediporta.Tests.Unit", "tests\Mediporta.Tests.Unit\Mediporta.Tests.Unit.csproj", "{A1FEC9E1-6A3D-4127-991F-C49A3A01EC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediporta.Tests.Integration", "tests\Mediporta.Tests.Integration\Mediporta.Tests.Integration.csproj", "{07635A2B-B98F-4CA0-8B17-7A21DEF69BEA}"
+EndProject
+
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{567C4B1B-BF9E-44FE-BBB3-4C1B834D25C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567C4B1B-BF9E-44FE-BBB3-4C1B834D25C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567C4B1B-BF9E-44FE-BBB3-4C1B834D25C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567C4B1B-BF9E-44FE-BBB3-4C1B834D25C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35B2190-691A-4611-A32F-CA7AB4537848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35B2190-691A-4611-A32F-CA7AB4537848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35B2190-691A-4611-A32F-CA7AB4537848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35B2190-691A-4611-A32F-CA7AB4537848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB810458-C5E1-4F91-B2EF-A87E3B228758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB810458-C5E1-4F91-B2EF-A87E3B228758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB810458-C5E1-4F91-B2EF-A87E3B228758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB810458-C5E1-4F91-B2EF-A87E3B228758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE40C66E-79CA-403D-86D4-4A4624125D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE40C66E-79CA-403D-86D4-4A4624125D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE40C66E-79CA-403D-86D4-4A4624125D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE40C66E-79CA-403D-86D4-4A4624125D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FEC9E1-6A3D-4127-991F-C49A3A01EC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FEC9E1-6A3D-4127-991F-C49A3A01EC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FEC9E1-6A3D-4127-991F-C49A3A01EC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FEC9E1-6A3D-4127-991F-C49A3A01EC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07635A2B-B98F-4CA0-8B17-7A21DEF69BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07635A2B-B98F-4CA0-8B17-7A21DEF69BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07635A2B-B98F-4CA0-8B17-7A21DEF69BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07635A2B-B98F-4CA0-8B17-7A21DEF69BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{567C4B1B-BF9E-44FE-BBB3-4C1B834D25C0} = {278B8248-E535-4495-897C-4848C9B64BA1}
+		{DB810458-C5E1-4F91-B2EF-A87E3B228758} = {278B8248-E535-4495-897C-4848C9B64BA1}
+		{AE40C66E-79CA-403D-86D4-4A4624125D03} = {278B8248-E535-4495-897C-4848C9B64BA1}
+		{E35B2190-691A-4611-A32F-CA7AB4537848} = {278B8248-E535-4495-897C-4848C9B64BA1}
+		{A1FEC9E1-6A3D-4127-991F-C49A3A01EC44} = {5C65AADA-1830-459B-8736-83347E8EC62C}
+		{07635A2B-B98F-4CA0-8B17-7A21DEF69BEA} = {5C65AADA-1830-459B-8736-83347E8EC62C}
+	EndGlobalSection
+EndGlobal

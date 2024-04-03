@@ -1,0 +1,14 @@
+### GET request with parameter
+GET http://localhost:8080/api/population?page=1&pageSize=10&sort=name&order=desc
+Accept: application/json
+
+### POST request with empty body
+POST http://localhost:8080/api/population
+Content-Type: application/json
+
+### Send POST request with json body
+POST http://localhost:8080/api/population
+Content-Type: application/json
+[
+".net8", "mini"
+]
